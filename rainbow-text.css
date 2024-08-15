@@ -1,0 +1,22 @@
+@keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .rainbow-text {
+    font-size: 3rem;
+    background: linear-gradient(270deg, #FF5733, #33FF57, #3357FF, #FF33A1, #A133FF, #FF9A33);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 5s ease infinite;
+    display: inline;
+  }
+  
